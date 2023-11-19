@@ -77,12 +77,14 @@
       function openNav() {
         
         document.getElementById("mySidenav").style.transform = "translateX(0)";
-        document.getElementById("html").style.overflowY = "hidden";
+        document.getElementById("html").style.height = "100vh";
+        document.getElementById("html").style.overflow = "hidden";
       }
 
       function closeNav() {
         document.getElementById("mySidenav").style.transform =
           "translateX(300px)";
+         document.getElementById("html").style.height = "auto";
         document.getElementById("html").style.overflowY = "visible";
       }
     </script>
