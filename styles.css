@@ -184,7 +184,7 @@ a {
   .sidenav a {
     text-decoration: none;
     color: white;
-    display: block;
+   /* display: block;*/
     transition: 0.3s;
     font-family: Assistant;
   }
@@ -204,7 +204,7 @@ a {
   }
   .nav-link {
     font-size: x-large;
-  /*  padding: 8px 8px 8px 32px; */
+   padding: 8px 8px 8px 32px;
   }
   .social-container-mobile {
     display: flex;
