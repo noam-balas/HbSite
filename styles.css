@@ -163,7 +163,7 @@ a {
   .sidenav {
     height: 100%; /* 100% Full-height */
     width: 350px; /* 0 width - change this with JavaScript */
-    transform: translateX(250px);
+    transform: translateX(350px);
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0;
