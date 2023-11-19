@@ -161,7 +161,7 @@ a {
 
   /* The side navigation menu */
   .sidenav {
-    height: 100%; /* 100% Full-height */
+    height: 100vh; /* 100% Full-height */
     width: 300px; /* 0 width - change this with JavaScript */
     transform: translateX(300px);
     position: fixed; /* Stay in place */
