@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="heb" dir="rtl">
+<html id="html" lang="heb" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +13,7 @@
     /> -->
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body id="body-id">
+  <body>
     <nav class="my-nav">
       <div class="links-container">
         <a class="my-nav-link" href="index.html"
@@ -77,7 +77,7 @@
       function openNav() {
         
         document.getElementById("mySidenav").style.transform = "translateX(0)";
-        document.getElementById("body-id").style.overflowY = "hidden";
+        document.getElementById("html").style.overflowY = "hidden";
       }
 
       function closeNav() {
