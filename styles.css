@@ -162,7 +162,7 @@ a {
   /* The side navigation menu */
   .sidenav {
     height: 100%; /* 100% Full-height */
-    width: 250px; /* 0 width - change this with JavaScript */
+    width: 80%; /* 0 width - change this with JavaScript */
     transform: translateX(250px);
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
@@ -171,7 +171,7 @@ a {
     background-color: #111; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    transition: 200ms; /* 0.5 second transition effect to slide in the sidenav */
   }
 
   /* The navigation menu links */
@@ -197,7 +197,7 @@ a {
     margin-left: 50px;
   }
   .nav-link {
-    font-size: larger;
+    font-size: x-large;
     padding: 8px 8px 8px 32px;
   }
   .social-container-mobile {
@@ -212,7 +212,7 @@ a {
 
   .top-icon-mobile {
     color: black;
-    font-size: large;
+    font-size: larger;
     padding: 8px 8px 8px 16px;
   }
 
