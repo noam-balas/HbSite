@@ -379,7 +379,7 @@ a {
 .about-img {
   height: auto;
   margin: 10px 25px;
-  width: 400px;
+  width: 300px;
 
   border-color: #5c4033;
   border-radius: 40px;
@@ -396,9 +396,6 @@ a {
   }
   .about-text {
     padding: 0;
-  }
-  .about-img {
-    boder: none;
   }
 }
 
