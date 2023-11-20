@@ -204,7 +204,7 @@ a {
   }
   .nav-link {
     font-size: x-large;
-   padding: 0 8px 8px 32px;
+   padding: 0 0 8px 0;
   }
   .social-container-mobile {
     display: flex;
