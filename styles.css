@@ -214,12 +214,13 @@ a {
     align-items: center;
     width: 100%;
     margin-top: 20px;
+    gap: 16px;
   }
 
   .top-icon-mobile {
     color: black;
     font-size: x-large;
-    padding: 8px 8px 8px 16px;
+    padding: 8px 0 0 0;
   }
 
   .top-icon-mobile:hover {
@@ -229,9 +230,9 @@ a {
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidenav {
+  /*.sidenav {
     padding-top: 15px;
-  }
+  }*/
   .sidenav a {
     font-size: 18px;
   }
