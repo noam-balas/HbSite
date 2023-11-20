@@ -397,6 +397,9 @@ a {
   .about-text {
     padding: 0;
   }
+  .about-img {
+    boder: none;
+  }
 }
 
 /* music section */
